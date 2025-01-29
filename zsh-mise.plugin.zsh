@@ -10,7 +10,6 @@ fi
 # globally insstalled tools within your `.zshrc` file.
 # https://mise.jdx.dev/dev-tools/shims.html#zshrc-bashrc-files
 source <(mise activate zsh)
-source <(mise hook-env -s zsh)
 
 # Completions directory for `mise` command
 local COMPLETIONS_DIR="${0:A:h}/completions"
